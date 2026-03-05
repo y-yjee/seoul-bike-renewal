@@ -1,167 +1,126 @@
 <!-- 로고 이미지 -->
 <p align="center">
-  <img src="./seoul-bike-logo.png" width="250px" alt="Seoul Bike Logo" />
+  <img src="./seoul-bike-logo2.png" width="250px" alt="Seoul Bike Logo" />
 </p>
 
+<!-- 프로젝트 기본 정보 -->
+<h3 align="center">
+  서울시 공공자전거 ‘따릉이’ 웹사이트를 분석하여 <br>
+  메인 화면 구조를 개선하고 사용자 경험(UX) 중심의 서비스 페이지를 구현한 프로젝트입니다.
+</h3>
 
+<h4 align="center">
+  [ Front-End Team Project | Team of 5 | Jun 16 – Jun 27, 2025 ]
+</h4>
+<br/>
 
-
-
-
-
-
-
-
-
-
-
-# 🚲 서울시 공공자전거 ‘따릉이’
-
-> 서울시 공공자전거 **따릉이 웹사이트를 분석하여 메인 화면 구조를 개선하고 사용자 중심 서비스 페이지를 구현한 프로젝트**
-
-🔗 <a href="https://y-yjee.github.io/projects/seoul-bike/" target="_blank">Live Demo</a>  |  
-📄 <a href="FIGMA_OR_PDF_LINK" target="_blank">기획서 보기 (Figma)</a>
-
----
-
-## 📌 프로젝트 개요
-
-| 항목 | 내용 |
-|-----|-----|
-프로젝트 기간 | 2025.06.16 ~ 2025.06.27 |
-프로젝트 형태 | 팀 프로젝트 (5명) |
-프로젝트 목표 | 기존 따릉이 사이트 UX 분석 후 메인 구조 개선 |
-
----
-
-## 🛠 사용 기술
-
-<p>
-<img src="https://img.shields.io/badge/HTML-000000?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS-000000?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/jQuery-000000?style=for-the-badge&logo=jquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kakao_Map_API-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/bxSlider-000000?style=for-the-badge"/>
+<!-- 링크 버튼 -->
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/LIVE_DEMO-View_Site-3D5567?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Project_Planning-Figma-7B61FF?style=for-the-badge&logo=figma&logoColor=white"/></a>
 </p>
 
----
+<hr/>
 
-## 🔍 프로젝트 배경
+<!-- 내용 -->
+## 📌 Project Overview
+서울시 공공자전거 ‘따릉이’ 웹사이트를 분석하여 기존 메인 페이지의 정보 구조와 사용자 흐름을 개선하고  
+사용자가 대여소 위치, 대여 방법, 요금 정보 등의 정보를 쉽게 확인할 수 있도록 **UX 중심의 메인 화면을 재구성**한 프로젝트입니다.
+<br/>
 
-기존 따릉이 웹사이트를 분석한 결과 다음과 같은 문제점을 발견했습니다.
+#### 🛠 Tech Stack
+- **Frontend** : `HTML` · `CSS` · `JavaScript` · `jQuery`
+- **Library** : `bxSlider` · `Kakao Maps API`
+- **Design** : `Figma` · `Adobe Photoshop` 
 
-- 메인 화면에서 **대여소 정보를 직관적으로 확인하기 어려움**
-- 서비스 정보가 분산되어 있어 **사용자가 원하는 정보를 찾기 어려움**
-- 공공 서비스 특성상 **정보 전달 중심의 UI 구조 필요**
+#### 🎯 Key Objectives
+<img src="https://img.shields.io/badge/메인 화면 구조 재설계-000000?style=for-the-badge&logoColor=white">     <img src="https://img.shields.io/badge/지도 기반 서비스 구현-000000?style=for-the-badge&logoColor=white">     <img src="https://img.shields.io/badge/인터랙션 및 시각적 개선-000000?style=for-the-badge&logoColor=white">
+<br/>
 
-따라서 사용자가 가장 많이 찾는 기능인  
-**대여소 위치 확인 기능을 중심으로 메인 화면을 재구성**했습니다.
+<hr/>
 
----
+## 👤 My Role & Contributions
+프로젝트 기획서 작성부터 UI 설계, 메인 지도 기능 구현, 최종 발표까지 프로젝트 전 과정에 참여했습니다.
 
-## 💡 개선 방향
+#### 1. 기획 및 UI/UX 시안 설계
+- **Figma 활용**: 프로젝트 전체 기획서 작성 및 디자인 시안을 설계하여 팀원들과 시각적 가이드라인 공유.
+- **사용자 중심 개편**: 기존 사이트를 분석하여 사용자가 가장 필요로 하는 '대여소 찾기' 기능을 메인 전면에 배치하도록 구조 개선.
 
-- **지도 중심 인터페이스 구성**
-- 대여 / 반납 / 요금 정보를 **탭 메뉴 구조로 정리**
-- 서비스 안내 콘텐츠 **가독성 중심으로 재배치**
-- 공공 서비스 특성에 맞춘 **접근성 중심 UI**
+#### 2. 지도 기능 구현 (Kakao Maps API)
+- **핵심 기능 개발**: `Kakao Maps API`를 연동하여 메인 화면의 대여소 지도 섹션 구현.
+- **커스텀 마커 시각화**: 지도 위에 대여소 위치를 직관적인 원형 마커로 표시하여 정보 가독성 증대.
 
----
+#### 3. 그래픽 자산 제작 및 적용
+- **동적 UI**: `bxSlider`를 활용한 이미지 슬라이더 및 앱 설치 유도 호버 배너 구현.
+- **일관된 아이덴티티**: 하단 배너, 앱 설치 유도 팝업 등 서비스에 필요한 그래픽 요소를 직접 제작하여 전체적인 비주얼 완성도 향상.
 
-## 👩‍💻 담당 역할
+#### 4. 프로젝트 최종 발표
+- 프로젝트 전략, 설계 의도 및 최종 결과물을 정리하여 팀 대표로 발표 진행.
 
-**기획 및 UI 설계**
 
-- 프로젝트 전체 **기획서 작성**
-- **Figma 기반 UI 시안 제작**
-- 서비스 흐름 및 메인 구조 설계
+<hr/>
 
-**지도 기능 구현**
+## 🖥️ Project Preview
+| 메인 페이지 (지도 & 슬라이더) | 인터렉션 및 배너 |
+| :---: | :---: |
+| ![대여소 지도](seoul-bike-main.gif) | ![배너 및 호버](seoul-bike-course-banner.gif) |
+| **서브 : 로그인/회원가입** | **서브 : 서비스 안내 및 공지사항** |
+| ![서브1](seoul-bike-sub1.gif) | ![서브2](seoul-bike-sub2.gif) |
 
-- **Kakao Maps API 연동**
-- 대여소 위치 **지도 마커 표시 기능 구현**
+<hr/>
 
-**디자인 자산 제작**
+## 🚀 Problem Solving
 
-- 서비스 안내 **배너 디자인 제작**
-- **앱 설치 유도 인터랙션 배너 구현**
+#### 🔍 API 연동 과정에서의 시각적 구현 
+- **상황**: `Kakao Maps API`의 기본 핀 마커가 서비스 디자인 톤과 맞지 않는 문제가 있었습니다.
+- **해결**: 기본 이미지 마커 대신 `HTML(DOM)`기반 커스텀 마커를 생성하여 따릉이 브랜드 컬러를 적용한 원형 마커를 구현했습니다.
+- **성과**: 외부 API의 기본 UI에 의존하지 않고, `JavaScript`와 `CSS`를 활용해 프로젝트 디자인에 맞는 지도 마커를 직접 커스터마이징했습니다.  
 
-**프로젝트 발표**
+#### 🤝 협업을 위한 코드 및 파일 관리
+- **상황**: 팀 프로젝트 진행 중 파일명과 코드 스타일이 혼재될 가능성이 있었습니다.
+- **해결**: 작업 시작 전 파일명 Naming Convention을 정의하고 팀원들과 공유하여 일관된 코드 관리와 협업 환경을 유지했습니다.
 
-- 프로젝트 전략 및 결과 발표 진행
+<hr/>
 
----
+## 🌱 Retrospective & Growth
 
-## 🎥 주요 기능
+#### ✔ 데이터 기반 UI 설계 경험
+사용자가 가장 먼저 수행하는 핵심 행동인 대여소 위치 확인에 집중하여 메인 페이지를 지도 중심 구조로 재설계했습니다.  
+이 과정을 통해 사용자의 핵심 과업을 빠르게 해결하는 UI 설계의 중요성을 경험했습니다.
 
-### 메인 페이지 – 대여소 지도
+#### ✔ API 커스터마이징 경험
+Kakao Maps API의 기본 마커 대신 DOM 기반 커스텀 마커를 구현하며  
+라이브러리의 기본 기능에 의존하지 않고 프로젝트 요구사항에 맞게 UI를 확장하는 방법을 배웠습니다.
 
-- Kakao Map API 기반 지도 구현  
-- 대여소 위치 **마커 표시 기능**
+#### ✔ 디자인과 개발을 연결하는 경험
+Figma 시안을 직접 제작하고 구현하면서 Color System, Spacing 등 디자인 가이드의 필요성을 체감했습니다.  
+이 경험을 통해 이후 프로젝트에서는 디자인 시스템을 기반으로 한 구조적인 UI 개발을 목표로 하고 있습니다.
 
-<img src="./seoul-bike-main.gif"/>
+#### ✔ 앞으로의 발전 방향
+향후에는 공공데이터 실시간 API(대여 가능 수량 등)를 연동하여  
+데이터 변화에 따라 UI가 즉각 반응하는 동적 인터페이스 구현에 도전하고 싶습니다.
 
----
 
-### 메인 페이지 – 서비스 안내 인터랙션
+<hr/>
 
-- 코스 버튼 클릭 시 **이미지 전환**
-- bxSlider 기반 **메인 이미지 슬라이더**
-- 하단 서비스 안내 배너
+## ✉️ Contact
+- **Email**: your-email@example.com
+- **GitHub**: [github.com/y-yjee](https://github.com/y-yjee)
 
-<img src="./seoul-bike-course-banner.gif"/>
 
----
 
-### 서비스 페이지
 
-GNB 메뉴 기반 서비스 페이지 구현
 
-- 로그인 / 회원가입
-- 사업소개
-- 이용안내
-- 이용권 구매
-- 문의 / FAQ
-- 공지사항
-- 안전수칙
 
-<img src="./seoul-bike-sub1.gif"/>
-<img src="./seoul-bike-sub2.gif"/>
 
----
 
-## 🔧 트러블슈팅
 
-### API 연동 과정에서의 문제
 
-지도 API 연동 과정에서  
-좌표 데이터 처리 및 마커 생성 과정에서 오류가 발생했습니다.
 
-이를 해결하기 위해
 
-- API 문서 재확인
-- 데이터 처리 로직 수정
-- 지도 마커 생성 방식 개선
 
-을 통해 정상적으로 대여소 위치가 표시되도록 구현했습니다.
 
----
 
-## 📚 프로젝트를 통해 얻은 경험
 
-- 공공 데이터 API 활용 경험
-- 지도 API 기반 서비스 구현 경험
-- 실제 서비스 UX 분석 및 개선 경험
-- 협업 프로젝트 경험
 
----
 
-## ✨ 마무리
-
-이 프로젝트는 단순히 기존 사이트를 클론하는 것이 아니라  
-**사용자가 왜 이 서비스를 사용하는가**라는 질문에서 시작했습니다.
-
-기존 사이트의 정보 구조를 분석하고  
-**지도 중심 인터페이스와 직관적인 정보 구조**로 재구성하여  
-사용자가 필요한 정보를 빠르게 찾을 수 있도록 개선했습니다.
